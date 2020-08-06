@@ -13,7 +13,9 @@ Created on Tue Jul 28 15:05:25 2020
 # 训练数据：已经分词过的人民日报1998语料库
 # 模型学习：（A, B, pi）的参数估计。训练数据已经分词完毕，使用极大似然估计。
 # 模型预测：使用维特比算法。
-# 模型评估：使用精确率precision, 召回率recall
+# 模型评估：使用精度precision, 召回率recall。
+
+# 选用网上找的近期一段人民日报语料做测试，精度85%，召回率89%。
 
 import numpy as np
 from tqdm import tqdm
