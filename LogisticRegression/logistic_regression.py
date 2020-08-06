@@ -89,4 +89,3 @@ if __name__ == "__main__":
     # 模型评估
     score = LR.accuracy(test_labels, test_pred)
     print(score)
-
